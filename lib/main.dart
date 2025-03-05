@@ -117,6 +117,9 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Text("BGT",style: TextStyle(fontSize: 30,color: Colors.blue,fontWeight: FontWeight.bold),),
               alignment: Alignment.center
             ),
+            Container(height: 100,width: 500,
+            color:Colors.amberAccent,
+            child:  
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -133,7 +136,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                 
               ],
-            ),
+            ),),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
